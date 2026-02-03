@@ -6,7 +6,7 @@ exec bash
 nvm install node
 
 echo Eliminazione, se presente, del Virtual Enviorment
-if [ -d "nome_cartella" ]; then
+if [ -d "venv" ]; then
   rm -r venv
 fi
 
